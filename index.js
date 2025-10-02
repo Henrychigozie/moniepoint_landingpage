@@ -1,21 +1,21 @@
-// document.querySelectorAll('.dropdown-left .item').forEach(item => {
-//   item.addEventListener('mouseenter', () => {
-//     const target = item.getAttribute('data-target');
+document.querySelectorAll(".dropdown-left .item").forEach((item) => {
+  item.addEventListener("mouseenter", () => {
+    const target = item.getAttribute("data-target");
 
-//     // Hide all sub-lists
-//     document.querySelectorAll('.dropdown-right .sub-list').forEach(sub => {
-//       sub.style.display = 'none';
-//     });
+    // Hide all sub-lists
+    document.querySelectorAll(".dropdown-right .sub-list").forEach((sub) => {
+      sub.style.display = "none";
+    });
 
-//     // Show the matched sub-list
-//     document.getElementById(target).style.display = 'flex';
-//   });
-// });
+    // Show the matched sub-list
+    document.getElementById(target).style.display = "flex";
+  });
+});
 
-// // Show "Banking" by default when Products is opened
-// document.addEventListener('DOMContentLoaded', () => {
-//   document.getElementById('banking').style.display = 'flex';
-// });
+// Show "Banking" by default when Products is opened
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("banking").style.display = "flex";
+});
 
 // ===== Mobile hamburger toggle =====
 const hamburger = document.querySelector(".hamburger");
