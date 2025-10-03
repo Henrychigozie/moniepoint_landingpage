@@ -610,6 +610,10 @@ nav .hov:hover {
   .mobile .left {
     background-color: #092256;
   }
+
+  .dropdown-wrapper {
+    display: none;
+  }
 }
 
 /* Hero Section */
@@ -1049,7 +1053,7 @@ nav .hov:hover {
   scroll-margin-top: 100px;
 }
 
-.tools_option a.active {
+.tools_option .activee {
   background-color: #c4e9fd;
   color: #092256;
   font-weight: 400;
