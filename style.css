@@ -1628,11 +1628,12 @@ nav .hov:hover {
 .steps::before {
   content: "";
   position: absolute;
-  top: 35px;
+  top: 25px;
   left: 0;
   right: 0;
   height: 2px;
-  background-color: #e3ebf7;
+  width: 100%;
+  background-color: #0058db;
   z-index: 0;
 }
 
@@ -1883,10 +1884,6 @@ nav .hov:hover {
 
 #slide_but2 {
   top: 45%;
-}
-
-#ana {
-  background-color: #d3e2fa;
 }
 
 #slide_but1 {
