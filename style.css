@@ -1474,6 +1474,16 @@ nav .hov:hover {
   }
 }
 
+@media (max-width: 500px) {
+  #henry1 {
+    display: none;
+  }
+
+  #henry2 {
+    display: none;
+  }
+}
+
 /* whats more styling */
 .more-section {
   /* max-width: 1200px; */
